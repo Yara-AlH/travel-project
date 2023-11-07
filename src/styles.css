@@ -5,6 +5,7 @@ body {
 
 .container {
   margin: 0 auto;
+  max-width: 1400px;
 }
 
 header {
@@ -67,9 +68,19 @@ footer {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
-  grid-gap: 30px;
   color: white;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 55px;
+  padding: 100px;
+  background-color: white;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 32px;
 }
 
 .grid a,
@@ -80,4 +91,28 @@ p {
 li {
   list-style-type: none;
   margin-left: -40px;
+}
+
+.royal-palace-image {
+  border-radius: 10px;
+  filter: invert(10%);
+}
+
+.about-stockholm h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin: 0;
+  color: #bebcc7;
+}
+
+.about-stockholm h2 {
+  color: #272044;
+  font-size: 35px;
+  margin: 0;
+}
+
+.about-stockholm p {
+  font-size: 16px;
+  color: slategray;
 }
